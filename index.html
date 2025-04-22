@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Apertura/Cierre de Caja</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <h1>Apertura/Cierre de Caja</h1>
+  <div class="grand-total">Total Efectivo en Caja: $<span id="granTotal">0</span></div>
+
+  <h2>Monedas</h2>
+  <table id="tablaMonedas">
+    <thead>
+      <tr>
+        <th>Denominación</th>
+        <th>Cantidad</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+    <tfoot>
+      <tr class="total-section">
+        <td colspan="2">Total monedas</td>
+        <td>$<span id="totalMonedas">0</span></td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <h2>Billetes</h2>
+  <table id="tablaBilletes">
+    <thead>
+      <tr>
+        <th>Denominación</th>
+        <th>Cantidad</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+    <tfoot>
+      <tr class="total-section">
+        <td colspan="2">Total billetes</td>
+        <td>$<span id="totalBilletes">0</span></td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <script src="js/conteo.js"></script>
+</body>
+</html>
